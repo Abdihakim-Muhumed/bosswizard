@@ -380,3 +380,11 @@ const quotes = [
     "Do not wait for opportunity. Create it.",
   ];
   
+  function generateRandomMessage(){
+    let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    let randomAdimration = admirationMessages[Math.floor(Math.random() * admirationMessages.length)]
+    let randomGreeting = greetings[Math.floor(Math.random() * greetings.length)]
+
+    return (randomGreeting + randomAdimration + randomQuote)
+  }
+  console.log(generateRandomMessage())
