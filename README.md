@@ -3,7 +3,7 @@
 This is a simple website that generates random messages for an employer to send to employees to better their communication.
 ![Preview](bosswizard-demo.png)
 # Set up instructions:
-Clone this repository to work on your personal machine.
+Clone this repository to run locally.
 
 # Technologies
  1. Javascript
