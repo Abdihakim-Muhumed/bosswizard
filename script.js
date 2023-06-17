@@ -1,3 +1,7 @@
+const btnGenerate = document.getElementById("generateBtn")
+btnGenerate.addEventListener('click', function(){
+    document.getElementById('randomMessage').innerHTML= generateRandomMessage()
+})
 const greetings = [
     "Good morning! I hope you're ready for a productive day.",
     "Hello there! I trust you had a great evening.",
